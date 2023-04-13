@@ -1,12 +1,16 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MyClass;
 using System;
+using System.Configuration;
 
 namespace MyClassTest
 {
     [TestClass]
     public class FileProcessTest
     {
+        private const string BAD_FILE_NAME = @"C:\BadFileName.bat";
+        private string _GoodFileName;
+
         [TestMethod]
         public void FileNameDoesExists()
         {
@@ -14,8 +18,18 @@ namespace MyClassTest
 
             bool fromCall;
 
-            fromCall = fp.FileExists(@"C:\Windows\addins\FXSEXT.ecf");
+            fromCall = fp.FileExists(@"");
             Assert.IsTrue(fromCall);
+        }
+
+        public void SetGoodFileName()
+        {
+            _GoodFileName = ConfigurationManager.AppSettings["GoodFileName"];
+            if (_GoodFileName.Contains("[AppPath]"))
+            {
+                _GoodFileName = _GoodFileName.Replace("[AppPath]", 
+                    Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
+            }
         }
         [TestMethod]
         public void FileNameDoesNotExists()
@@ -24,7 +38,7 @@ namespace MyClassTest
 
             bool fromCall;
 
-            fromCall = fp.FileExists(@"C:\FXSEXT.ecf");
+            fromCall = fp.FileExists(BAD_fILE_NAME);
             Assert.IsFalse(fromCall);
         }
         [TestMethod]
