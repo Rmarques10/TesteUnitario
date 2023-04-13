@@ -2,6 +2,7 @@
 using MyClass;
 using System;
 using System.Configuration;
+using System.IO;
 
 namespace MyClassTest
 {
@@ -18,7 +19,11 @@ namespace MyClassTest
 
             bool fromCall;
 
-            fromCall = fp.FileExists(@"");
+            SetGoodFileName();
+            File.AppendAllText(_GoodFileName, "Some Text");
+            fromCall = fp.FileExists(_GoodFileName);
+            File.Delete(_GoodFileName);
+
             Assert.IsTrue(fromCall);
         }
 
@@ -38,7 +43,7 @@ namespace MyClassTest
 
             bool fromCall;
 
-            fromCall = fp.FileExists(BAD_fILE_NAME);
+            fromCall = fp.FileExists(BAD_FILE_NAME);
             Assert.IsFalse(fromCall);
         }
         [TestMethod]

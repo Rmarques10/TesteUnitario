@@ -15,3 +15,4 @@ C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\obj\Debug\MyClassTe
 C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\obj\Debug\MyClassTest.csproj.CopyComplete
 C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\obj\Debug\FileProcessTest.dll
 C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\obj\Debug\FileProcessTest.pdb
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\bin\Debug\FileProcessTest.dll.config
