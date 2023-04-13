@@ -1,0 +1,17 @@
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\bin\Debug\FileProcessTest.dll
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\bin\Debug\FileProcessTest.pdb
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\bin\Debug\MyClass.dll
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\bin\Debug\MyClass.pdb
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\obj\Debug\MyClassTest.csproj.AssemblyReference.cache
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\obj\Debug\MyClassTest.csproj.CoreCompileInputs.cache
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\obj\Debug\MyClassTest.csproj.CopyComplete
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\obj\Debug\FileProcessTest.dll
+C:\Users\Rafael Marques\source\repos\MyClass\FileProcessTest\obj\Debug\FileProcessTest.pdb

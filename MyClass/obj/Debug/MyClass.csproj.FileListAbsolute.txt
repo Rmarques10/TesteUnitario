@@ -1,0 +1,6 @@
+C:\Users\Rafael Marques\source\repos\MyClass\MyClass\bin\Debug\MyClass.dll
+C:\Users\Rafael Marques\source\repos\MyClass\MyClass\bin\Debug\MyClass.pdb
+C:\Users\Rafael Marques\source\repos\MyClass\MyClass\obj\Debug\MyClass.csproj.AssemblyReference.cache
+C:\Users\Rafael Marques\source\repos\MyClass\MyClass\obj\Debug\MyClass.csproj.CoreCompileInputs.cache
+C:\Users\Rafael Marques\source\repos\MyClass\MyClass\obj\Debug\MyClass.dll
+C:\Users\Rafael Marques\source\repos\MyClass\MyClass\obj\Debug\MyClass.pdb
