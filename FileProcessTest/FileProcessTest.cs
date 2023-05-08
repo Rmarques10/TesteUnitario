@@ -12,6 +12,8 @@ namespace MyClassTest
         private const string BAD_FILE_NAME = @"C:\BadFileName.bat";
         private string _GoodFileName;
 
+        public TestContext TestContext { get; set; }
+
         [TestMethod]
         public void FileNameDoesExists()
         {
@@ -20,8 +22,11 @@ namespace MyClassTest
             bool fromCall;
 
             SetGoodFileName();
-            File.AppendAllText(_GoodFileName, "Some Text");
+            TestContext.WriteLine($"Creating File: {_GoodFileName}");
+            File.AppendAllText(_GoodFileName, $"Some Text: {_GoodFileName}");
+            TestContext.WriteLine($"Testing File: {_GoodFileName}");
             fromCall = fp.FileExists(_GoodFileName);
+            TestContext.WriteLine($"Deleting File: {_GoodFileName}");
             File.Delete(_GoodFileName);
 
             Assert.IsTrue(fromCall);
